@@ -113,6 +113,7 @@ add_action( 'widgets_init', '_s_widgets_init' );
 /**
  * Enqueue scripts and styles.
  */
+if( ! function_exists('_s_scripts')):
 function _s_scripts() {
 	wp_enqueue_style( '_s-style', get_stylesheet_uri() );
 
@@ -124,6 +125,7 @@ function _s_scripts() {
 		wp_enqueue_script( 'comment-reply' );
 	}
 }
+endif;
 add_action( 'wp_enqueue_scripts', '_s_scripts' );
 
 /**
