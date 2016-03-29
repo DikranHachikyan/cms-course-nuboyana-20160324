@@ -1,4 +1,4 @@
-<aside class="col-sm-3 col-sm-pull-9 col-md-pull-0">
+<aside class="col-sm-3">
     <ul class="nav nav-pills nav-stacked">
         <li class="dropdown">
             <a href="#" class="btn dropdown-toggle" data-toggle="dropdown">

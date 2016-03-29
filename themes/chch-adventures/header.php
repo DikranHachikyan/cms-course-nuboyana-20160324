@@ -35,6 +35,6 @@
 			<li><a href="#about">About</a></li>
 			<li><a href="#contacts">Contacts</a></li>
 		</ul>
-		<h1>NZ Tours and Adventures <small class="hidden-xs">for travelers and backpackers</small></h1>
+		<h1><?php bloginfo('name');?> <small class="hidden-xs"><?php bloginfo('description');?></small></h1>
 	</nav>
 </header>
