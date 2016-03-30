@@ -8,7 +8,7 @@
 				</header>
 				<div class="col-sm-6 col-sm-offset-1 col-md-8 col-md-offset-0">
 					<section>
-						<h3><?php the_title();?><span class="glyphicon glyphicon-star"></span></h3>
+						<h3><?php the_title();?></h3>
 						<?php the_excerpt();?>
 					</section>
 					<footer>

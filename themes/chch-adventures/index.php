@@ -14,6 +14,7 @@
                 );
                 
                 $top_query = new WP_Query( $topargs );
+               
                 $last_post_id = 0;
                 if( $top_query->have_posts()):
                     $top_query->the_post();

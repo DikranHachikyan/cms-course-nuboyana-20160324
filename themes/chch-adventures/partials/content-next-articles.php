@@ -6,7 +6,7 @@
     ?>
             </header>
             <section>
-                <h3><?php the_title();?> <span class="glyphicon glyphicon-star"></span></h3>
+                <h3><?php the_title();?></h3>
                 <?php the_excerpt();?>
             </section>
             <footer>
